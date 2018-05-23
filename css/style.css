@@ -2771,7 +2771,9 @@ ul.wmuSliderPagination {
 		font-size: 1.1em;
 	}
 }
-
+.travel-content{
+	margin-top: 60px;
+}
 .travel-content .item{
 	border: 1px solid #f5f5f5;
 	box-shadow: 0 0 3px 2px #f5f5f5;
@@ -2785,14 +2787,16 @@ ul.wmuSliderPagination {
 	height: 120px;
 	width: 120px;
 	margin-right: 15px;
+	border-radius: 5px;
 }
 
 .travel-content .item .date{
-	width:110px;
+	min-width: 110px;
 	height:120px;
 	display: flex;
 	align-items: center;
-	font-weight: bold
+	font-weight: bold;
+	text-align: center;
 }
 
 .travel-content .item .content{

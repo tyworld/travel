@@ -2,314 +2,387 @@
 <html>
 
 <head>
-	<title>Home</title>
-	<!-- for-mobile-apps -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-	<!-- js -->
-	<script src="js/jquery-1.11.1.min.js"></script>
-	<!-- //js -->
-	<!-- start-smoth-scrolling -->
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
-			});
-		});
-	</script>
-	<!-- start-smoth-scrolling -->
+    <title>Your Trip</title>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <!-- js -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- //js -->
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+            });
+        });
+    </script>
+    <!-- start-smoth-scrolling -->
 </head>
 
 <body>
-	<!-- banner -->
-	<div class="banner">
-		<div class="container">
-			<div class="banner_top">
-			</div>
-			<nav class="navbar navbar-default">
+<!-- banner -->
+<div class="banner">
+    <div class="container">
+        <div class="banner_top">
+        </div>
+        <nav class="navbar navbar-default">
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav cl-effect-14">
-						<li>
-							<a href="###" class="active">首页</a>
-						</li>
-						<li>
-							<a href="#myTrip">我的旅程</a>
-						</li>
-						<li>
-							<a href="#info">网站介绍</a>
-						</li>
-						<li>
-							<a href="#contact">关于我们</a>
-						</li>
-					</ul>
-				</div>
-				<!-- /.navbar-collapse -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav cl-effect-14">
+                    <li>
+                        <a href="###" class="active">首页</a>
+                    </li>
+                    <li>
+                        <a href="#myTrip">我的旅程</a>
+                    </li>
+                    <li>
+                        <a href="#info">网站介绍</a>
+                    </li>
+                    <li>
+                        <a href="#contact">关于我们</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
 
-			</nav>
-			<div class="logo">
-				<a href="index.html">Your Trip
-					<span style="padding-top: 15px">旅行的意义</span>
-				</a>
-			</div>
-			<div class="dummy_text">
-				<p>面对的风景，除了世界，还有自己，记录你的旅程，分享你的所见所闻</p>
-			</div>
-		</div>
-	</div>
-	<!-- //banner -->
-	<div id="info" class="portfolio" style="padding:4em 0 1.5em 0">
-		<div class="container">
-			<h3>网站介绍</h3>
-		</div>
-	</div>
-	<div class="features" style="padding: 1.5em 0">
-		<div class="container">
-			<div style="text-align: center;color:#83bf16;font-size: 18px">
-				Your Trip是一个基于新一代区块链公链星云链的旅行游记社交网站，在这里记录、分享
-			</div>
-			<div class="services-grids">
-				<div class="col-md-4 services-grid">
-					<div class="col-xs-10 services-grid-right">
-						<h4>
-							<img src="images/t1.png" alt=""> 安全
-						</h4>
-						<p>基于新一代公链星云链加密
-							<br> 放心记录你的信息
-						</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-4 services-grid">
-					<div class="col-xs-10 services-grid-right">
-						<h4>
-							<img src="images/t2.png" alt=""> 简单
-						</h4>
-						<p>基于钱包地址，无需注册
-							<br> 快捷记录，一键分享给好友
-						</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-4 services-grid">
-					<div class="col-xs-10 services-grid-right">
-						<h4>
-							<img src="images/t3.png" alt=""> 私密
-						</h4>
-						<p>免实名档案，保证隐私
-							<br> 永远不可篡改
-						</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- slider -->
-	<div class="slider">
-		<div class="container">
-			<div class="sliderfig">
-				<ul id="flexiselDemo1">
-					<li>
-						<div class="sliderfig-grids">
-							<div class="sliderfig-grid">
-								<img src="images/5.jpg" alt=" " class="img-responsive" />
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="sliderfig-grids">
-							<div class="sliderfig-grid">
-								<img src="images/6.jpg" alt=" " class="img-responsive" />
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="sliderfig-grids">
-							<div class="sliderfig-grid">
-								<img src="images/8.jpg" alt=" " class="img-responsive" />
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="sliderfig-grids">
-							<div class="sliderfig-grid">
-								<img src="images/7.jpg" alt=" " class="img-responsive" />
-							</div>
-						</div>
-					</li>
-				</ul>
-				<script type="text/javascript">
-					$(window).load(function () {
-						$("#flexiselDemo1").flexisel({
-							visibleItems: 4,
-							animationSpeed: 1000,
-							autoPlay: true,
-							autoPlaySpeed: 3000,
-							pauseOnHover: true,
-							enableResponsiveBreakpoints: true,
-							responsiveBreakpoints: {
-								portrait: {
-									changePoint: 480,
-									visibleItems: 1
-								},
-								landscape: {
-									changePoint: 640,
-									visibleItems: 3
-								},
-								tablet: {
-									changePoint: 768,
-									visibleItems: 3
-								}
-							}
-						});
-
-					});
-				</script>
-				<script type="text/javascript" src="js/jquery.flexisel.js"></script>
-			</div>
-		</div>
-	</div>
-	<!-- //slider -->
+        </nav>
+        <div class="logo">
+            <a href="index.html">Your Trip
+                <span style="padding-top: 15px">旅行的意义</span>
+            </a>
+        </div>
+        <div class="dummy_text">
+            <p>面对的风景，除了世界，还有自己，记录你的旅程，分享你的所见所闻</p>
+            <p id="noExtension" style="display: none">请安装
+                <a target="_blank"
+                   href="https://github.com/ChengOrangeJu/WebExtensionWallet">WebExtensionWallet</a> 再使用</p>
+        </div>
+    </div>
+</div>
+<!-- //banner -->
+<div id="info" class="portfolio" style="padding:4em 0 1.5em 0">
+    <div class="container">
+        <h3>网站介绍</h3>
+    </div>
+</div>
+<div class="features" style="padding: 1.5em 0">
+    <div class="container">
+        <div style="text-align: center;color:#83bf16;font-size: 18px">
+            Your Trip是一个基于新一代区块链公链星云链的旅行游记社交网站，在这里记录、分享
+        </div>
+        <div class="services-grids">
+            <div class="col-md-4 services-grid">
+                <div class="col-xs-10 services-grid-right">
+                    <h4>
+                        <img src="images/t1.png" alt=""> 安全
+                    </h4>
+                    <p>基于新一代公链星云链加密
+                        <br> 放心你的信息
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-md-4 services-grid">
+                <div class="col-xs-10 services-grid-right">
+                    <h4>
+                        <img src="images/t2.png" alt=""> 简单
+                    </h4>
+                    <p>基于钱包地址，无需注册
+                        <br> 快捷记录
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-md-4 services-grid">
+                <div class="col-xs-10 services-grid-right">
+                    <h4>
+                        <img src="images/t3.png" alt=""> 私密
+                    </h4>
+                    <p>免实名档案，保证隐私
+                        <br> 永远不可篡改
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- slider -->
+<div class="slider">
+    <div class="container">
+        <div class="sliderfig">
+            <ul id="flexiselDemo1">
+                <li>
+                    <div class="sliderfig-grids">
+                        <div class="sliderfig-grid">
+                            <img src="images/5.jpg" alt=" " class="img-responsive"/>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="sliderfig-grids">
+                        <div class="sliderfig-grid">
+                            <img src="images/6.jpg" alt=" " class="img-responsive"/>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="sliderfig-grids">
+                        <div class="sliderfig-grid">
+                            <img src="images/8.jpg" alt=" " class="img-responsive"/>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="sliderfig-grids">
+                        <div class="sliderfig-grid">
+                            <img src="images/7.jpg" alt=" " class="img-responsive"/>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- //slider -->
 
 
-	<!-- 我的旅程 -->
-	<div id="myTrip" class="portfolio" style="padding:4em 0 1.5em 0">
-		<div class="container">
-			<h3>我的旅程</h3>
+<!-- 我的旅程 -->
+<div id="myTrip" class="portfolio" style="padding:4em 0 1.5em 0">
+    <div class="container">
+        <h3>我的旅程</h3>
 
-			<div class="main" style="text-align: center;padding: 5em 0">
+        <div id="createAccount" class="main" style="text-align: center;padding: 5em 0">
 
-				<div class="more m2">
-					<a class="btn effect6" href="javascript:void(0)">开启</a>
-				</div>
-			</div>
+            <div class="more m2">
+                <a class="btn effect6" href="javascript:void(0)">开启</a>
+            </div>
+        </div>
 
-			<div class="travel-content">
-				<div class="item">
-					<span class="date">
-						2018-10-10
-					</span>
-					<span class="content">
-						这周我们去了发的说法几点睡佛吉抖擞发动机搜if交底书风刀霜剑，书法家雕范德萨范德萨， 范德萨，发的说法，发的说法范德萨 这周我们去了发的说法几点睡佛吉抖擞发动机搜if交底书风刀霜剑，书法家雕范德萨范德萨， 范德萨，发的说法，发的说法范德萨 这周我们去了发的说法几点睡佛吉抖擞发动机搜if交底书风刀霜剑，书法家雕范德萨范德萨，
-						范德萨，发的说法，发的说法范德萨 这周我们去了发的说法几点睡佛吉抖擞发动机搜if交底书风刀霜剑，书法家雕范德萨范德萨， 范德萨，发的说法，发的说法范德萨
-					</span>
-				</div>
-				<div class="item">
-					<span class="date">
-						2018-10-10
-					</span>
-					<span class="content">
-						这周我们去了发的说法几点睡佛吉抖擞发动机搜if交底书风刀霜剑，书法家雕范德萨范德萨， 范德萨，发的说法，发的说法范德萨 这周我们去了发的说法几点睡佛吉抖擞发动机搜if交底书风刀霜剑，书法家雕范德萨范德萨， 范德萨，发的说法，发的说法范德萨 这周我们去了发的说法几点睡佛吉抖擞发动机搜if交底书风刀霜剑，书法家雕范德萨范德萨，
-						范德萨，发的说法，发的说法范德萨 这周我们去了发的说法几点睡佛吉抖擞发动机搜if交底书风刀霜剑，书法家雕范德萨范德萨， 范德萨，发的说法，发的说法范德萨
-					</span>
-				</div>
-				<div class="item">
-					<span class="date">
-						2018-10-10
-					</span>
-					<span class="content">
-						这周我们去了发的说法几点睡佛吉抖擞发动机搜if交底书风刀霜剑，书法家雕范德萨范德萨， 范德萨，发的说法，发的说法范德萨 这周我们去了发的说法几点睡佛吉抖擞发动机搜if交底书风刀霜剑，书法家雕范德萨范德萨， 范德萨，发的说法，发的说法范德萨 这周我们去了发的说法几点睡佛吉抖擞发动机搜if交底书风刀霜剑，书法家雕范德萨范德萨，
-						范德萨，发的说法，发的说法范德萨 这周我们去了发的说法几点睡佛吉抖擞发动机搜if交底书风刀霜剑，书法家雕范德萨范德萨， 范德萨，发的说法，发的说法范德萨
-					</span>
-				</div>
-			</div>
+        <div id="app" class="travel-content" style="display: none;">
+            <div class="item" v-for="l in list">
+                <span class="date" v-html="l.date+'<br/>'+l.addr"></span>
+                <img :src="l.img" alt="">
+                <span class="content" v-html="l.content"></span>
+            </div>
+        </div>
 
-			<!-- 表单 -->
+        <!-- 表单 -->
 
 
-			<form class="form-horizontal" style="margin-top: 80px;">
-				<div class="form-group">
-					<label class="col-sm-2 control-label">时间</label>
-					<div class="col-sm-4">
-						<input type="date" class="form-control" id="xfDate" placeholder="请选择时间">
-					</div>
-					<label class="col-sm-2 control-label">地点</label>
-					<div class="col-sm-4">
-						<input type="text" class="form-control" id="addr" placeholder="地点">
-					</div>
-				</div>
-				<div class="form-group">
-					<label class="col-sm-2 control-label">封面url</label>
-					<div class="col-sm-4">
-						<input type="text" class="form-control" id="addr" placeholder="图片url">
-					</div>
-					<label class="col-sm-2 control-label">上传图片</label>
-					<div class="col-sm-4" style="line-height:32px; ">
-						<a href="http://www.chuantu.biz/" target="_black">点我上传图片，然后把图片地址粘贴到左边</a>
-					</div>
-				</div>
-				<div class="form-group">
-					<label class="col-sm-2 control-label">记录</label>
-					<div class="col-sm-10">
-						<textarea class="form-control" id="" cols="30" rows="5"></textarea>
-					</div>
-				</div>
-				<div class="form-group">
-					<div class="col-sm-offset-2 col-sm-10">
-						<button type="button" id="push" class="btn btn-default">记一次</button>
-					</div>
-				</div>
-			</form>
+        <form class="form-horizontal" style="margin-top: 80px;display: none;">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">旅程时间</label>
+                <div class="col-sm-4">
+                    <input type="date" class="form-control" id="tripDate" placeholder="请选择时间">
+                </div>
+                <label class="col-sm-2 control-label">地点</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="tripAddr" placeholder="旅程地点">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">封面url</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="imgUrl" placeholder="图片url（选填）">
+                </div>
+                <label class="col-sm-2 control-label">上传图片</label>
+                <div class="col-sm-4" style="line-height:32px; ">
+                    <a href="http://www.chuantu.biz/" target="_black">点我上传图片，然后把图片地址粘贴到左边</a>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">详细记录</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="tripContent" rows="10" placeholder="写下你的旅程"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-1">
+                    <button type="button" id="push" class="btn btn-default">记一次</button>
+                </div>
+        <!--        <div class="col-sm-2">
+                    <button type="button" id="share" class="btn btn-default">分享</button>
+                </div>-->
+            </div>
+        </form>
 
-		</div>
-	</div>
-	<!-- contact -->
-	<div class="contact" id="contact" style="padding: 0 0 5em 0">
-		<div class="container">
-			<h3>联系我们</h3>
-			<!-- footer -->
-			<div class="footer-copy">
-				<p>Copyright &copy; 2018.基于新一代区块链公链
-					<a href="https://nebulas.io/" target="_blank">NAS</a>&nbsp;&nbsp;&nbsp;
-					<a href="https://incentive.nebulas.io/cn/signup.html?invite=32KAi" target="_blank">点我发布DAPP获取100NAS</a>
-				</p>
-			</div>
-		</div>
-	</div>
-	<!-- //contact -->
-	<!-- here stars scrolling icon -->
-	<script type="text/javascript">
-		$(document).ready(function () {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
+    </div>
+</div>
+<!-- contact -->
+<div class="contact" id="contact" style="padding: 0 0 5em 0">
+    <div class="container">
+        <h3>联系我们</h3>
+        <!-- footer -->
+        <div class="footer-copy">
+            <p>Copyright &copy; 2018.基于新一代区块链公链
+                <a href="https://nebulas.io/" target="_blank">NAS</a>&nbsp;&nbsp;&nbsp;
+                <a href="https://incentive.nebulas.io/cn/signup.html?invite=32KAi" target="_blank">点我发布DAPP获取100NAS</a>
+            </p>
+        </div>
+    </div>
+</div>
 
-			$().UItoTop({ easingType: 'easeOutQuart' });
+<script src="js/bootstrap.js"></script>
+<script>
+    $('a[href*=#]').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var $target = $(this.hash);
+            $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+            if ($target.length) {
+                var targetOffset = $target.offset().top;
+                $('html,body').animate({
+                    scrollTop: targetOffset
+                }, 1000);
+                return false;
+            }
+        }
+    });
+</script>
+<script src=js/nebPay.js></script>
+<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="js/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    $(function () {
+        var NebPay = require("nebpay");
+        var nebPay = new NebPay();
 
-		});
-	</script>
-	<!-- //here ends scrolling icon -->
-	<!-- for bootstrap working -->
-	<script src="js/bootstrap.js"></script>
-	<!-- //for bootstrap working -->
-	<script>
-		$('a[href*=#]').click(function () {
-			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-				var $target = $(this.hash);
-				$target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
-				if ($target.length) {
-					var targetOffset = $target.offset().top;
-					$('html,body').animate({
-						scrollTop: targetOffset
-					}, 1000);
-					return false;
-				}
-			}
-		});  
-	</script>
+        var dappAddress = "n1qGjaYQ5iR8TbCtiNx8x3MYtYMFMD2vw1q";
+        //检查扩展是否已安装
+        //如果安装了扩展，var“webExtensionWallet”将被注入到web页面中1
+        setTimeout(function () {
+            if (typeof (webExtensionWallet) === "undefined") {
+                //alert ("扩展钱包未安装，请先安装.")
+                $("#noExtension").show();
+            }
+        }, 500);
+
+        var hasAccount = false;
+
+        function searchDate() {
+            var to = dappAddress;
+            var value = "0";
+            var callFunction = "get";
+            var callArgs = [];
+            //callArgs.push(token);
+            nebPay.simulateCall(to, value, callFunction, JSON.stringify(callArgs), {
+                listener: cbSearch
+            });
+        }
+
+        searchDate();
+        setInterval(function () {
+            searchDate();
+        }, 10 * 1000);
+
+        $('#createAccount').on('click', function () {
+            $(this).hide();
+            searchDate();
+            $('.form-horizontal').show();
+            hasAccount = true;
+        });
+
+        function cbSearch(resp) {
+            var result = resp.result
+            if (result === 'null' || result == '') {
+                if (!hasAccount) {
+                    $('#createAccount').show();
+                }
+            } else {
+                $('#createAccount').hide();
+                $('.form-horizontal').show();
+                var resultObj = JSON.parse(result);
+                var len = resultObj.addr.split('|-').length;
+                var obj = [];
+                for (var i = 0; i < len; i++) {
+                    var temp = {
+                        date: resultObj.date.split('|-')[i],
+                        addr: resultObj.addr.split('|-')[i],
+                        content: resultObj.content.split('|-')[i],
+                        img: resultObj.img.split('|-')[i],
+                    }
+                    obj.push(temp);
+                }
+                Vue.set(app, 'list', obj);
+                $('#app').show();
+            }
+        }
+
+        $("#push").click(function () {
+            var imgUrl = $('#imgUrl').val();
+            var tripAddr = $('#tripAddr').val();
+            var tripDate = $('#tripDate').val();
+            var tripContent = $('#tripContent').val();
+            if (tripAddr == '') {
+                layer.msg('地点不能为空');
+                return;
+            } else if (tripDate == '') {
+                layer.msg('时间不能为空');
+                return;
+            } else if (tripContent == '') {
+                layer.msg('内容不能为空');
+                return;
+            }
+            var to = dappAddress;
+            var value = "0";
+            var callFunction = "save"
+            var callArgs = [];
+            callArgs.push(tripDate.toString());
+            callArgs.push(tripAddr.toString());
+            callArgs.push(tripContent.toString());
+            callArgs.push(imgUrl.toString());
+            nebPay.call(to, value, callFunction, JSON.stringify(callArgs), {
+                listener: cbPush
+            });
+        });
+
+        function cbPush(resp) {
+            console.log("response of push: " + resp)
+        }
+
+        var app = new Vue({
+            el: '#app',
+            data: {
+                list: []
+            }
+        });
+
+
+        $("#flexiselDemo1").flexisel({
+            visibleItems: 4,
+            animationSpeed: 1000,
+            autoPlay: true,
+            autoPlaySpeed: 3000,
+            pauseOnHover: true,
+            enableResponsiveBreakpoints: true,
+            responsiveBreakpoints: {
+                portrait: {
+                    changePoint: 480,
+                    visibleItems: 1
+                },
+                landscape: {
+                    changePoint: 640,
+                    visibleItems: 3
+                },
+                tablet: {
+                    changePoint: 768,
+                    visibleItems: 3
+                }
+            }
+        });
+    })
+</script>
+
+
 </body>
 
 </html>
